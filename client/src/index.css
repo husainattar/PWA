@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('assets/hk-grotesk/HKGrotesk-Medium.otf');
+}
+
+body {
+  text-align: center;
+  font-family: 'HK Grotesk';
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #3f4eae;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
